@@ -1,0 +1,32 @@
+# 系统
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# KiCad
+*.kicad_prl
+*.kicad_prl~
+*.lck
+*-bak/
+*.bak
+*.tmp
+fp-info-cache
+autosave-*.kicad_sch
+autosave-*.kicad_pcb
+
+# 嘉立创EDA / Altium 临时
+*.lck
+*.bak
+*.SchDocPreview
+*.PcbDocPreview
+History/
+__Previews/
+
+# 编辑器
+.vscode/
+.idea/
+
+# EDA 生成物（设计源文件保留，临时输出忽略）
+*.log
+*.lock
+*.swp
